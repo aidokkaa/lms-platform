@@ -1,0 +1,57 @@
+.progressGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  /* margin-top: 2rem; */
+}
+
+.progressCard {
+  flex: 1 1 calc(50% - 0.5rem); /* 2 карточки в ряд, с gap */
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+  box-sizing: border-box;
+  margin-bottom: 0.5rem;
+}
+
+.courseName {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.courseDesc {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 0.4rem;
+}
+
+.progressWrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.progressBar {
+  flex: 1;
+  height: 6px;
+  background-color: #e5e5e5;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 6px;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  transition: width 0.4s ease-in-out;
+}
+
+.progressText {
+  font-size: 0.8rem;
+  color: #333;
+  width: 35px;
+  text-align: right;
+}

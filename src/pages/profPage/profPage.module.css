@@ -1,0 +1,89 @@
+.mainGray{
+  background-color: #f5f5f5;
+  min-height: 100vh;         
+  padding: 2rem;
+}
+.innerMain{
+  margin: 0 auto;
+  width: 50%;
+  height: 80vh;
+  padding: 1rem;
+  p{
+    margin-bottom: 50px;
+  }
+}
+h1,p{
+  margin: 0;
+}
+.flexAccount{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    text-align: center;
+}
+.accLine{
+    border-bottom: 1px solid black;
+    padding: 5px;
+    width: 40%;
+  cursor: pointer;
+}
+.progLine{
+     border-bottom: 1px solid black;
+    width: 40%;
+      padding: 5px;
+      cursor: pointer;
+}
+.sectionContainer {
+  margin-top: 2rem;
+  /* background-color: blue; */
+}
+
+.sectionTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #222;
+  border-bottom: 2px solid #3b82f6; /* акцентная линия под заголовком */
+  display: inline-block; /* чтобы линия не растягивалась на всю ширину */
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+/* CeneralStudInfo */
+.general{
+
+}
+/* EditableField */
+.editableField {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.editableField label {
+  width: 100px;
+  font-weight: 500;
+}
+
+.editableField input {
+  flex: 1;
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.editableField button {
+  padding: 5px 12px;
+  border: none;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.editableField button:hover {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+}
