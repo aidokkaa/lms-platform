@@ -5,11 +5,12 @@
 }
 .innerMain{
   margin: 0 auto;
-  width: 50%;
+  /* background-color: red; */
+  width: 60%;
   height: 80vh;
-  padding: 1rem;
+  padding: 1rem; 
   p{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
   }
 }
 h1,p{
@@ -29,13 +30,12 @@ h1,p{
 }
 .progLine{
      border-bottom: 1px solid black;
-    width: 40%;
+     width: 40%;
       padding: 5px;
       cursor: pointer;
 }
 .sectionContainer {
-  margin-top: 2rem;
-  /* background-color: blue; */
+  margin-top: 1rem;
 }
 
 .sectionTitle {
@@ -46,6 +46,8 @@ h1,p{
   display: inline-block; /* чтобы линия не растягивалась на всю ширину */
   padding-bottom: 0.3rem;
   margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
 }
 
 /* CeneralStudInfo */
@@ -56,6 +58,7 @@ h1,p{
 .editableField {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   margin-bottom: 12px;
 }
@@ -67,9 +70,10 @@ h1,p{
 
 .editableField input {
   flex: 1;
-  padding: 6px 10px;
+  padding: 8px 12px;
   border: 1px solid #ccc;
   border-radius: 6px;
+  font-size: 0.95rem;
 }
 
 .editableField button {

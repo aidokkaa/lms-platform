@@ -28,24 +28,14 @@ const sections = [
               <div className={styles.btn}>Course details </div>
             </div>
             <div className={styles.leftBottom}>
-              {/* <div className={styles.leftBtmList}>
-                <div className={styles.listItem}>Overview</div>
-                <div className={styles.div}>|</div>
-                <div className={styles.listItem}>Course Content</div>
-                <div className={styles.div}>|</div>
-                <div className={styles.listItem}>Reviews</div>
-              </div> */}
-              <h3> 📚Описание курса</h3>
+              <h3>Overview</h3>
               <div className={styles.loremObj}>
-                {/* {
-                  loremArr.map((item, i) => (
-                    <p key={i}>✅ {item}</p>
-                  ))
-                } */}
-                <p>
-В курсе используется последняя версия React - 18!
-
-Если вы хотите стать успешным React программистом - этот курс для вас.</p>
+                <ul className="list-disc pl-6 space-y-2 text-gray-700">
+  <li>Познакомитесь с современным React — самой популярной библиотекой для создания интерфейсов.</li>
+  <li>Научитесь строить компоненты, управлять состоянием и использовать хуки.</li>
+  <li>Создадите полноценные SPA-приложения.</li>
+  <li>Выполните практические задания и разработаете проект для портфолио.</li>
+</ul>
               </div>
             </div>
           </div>
